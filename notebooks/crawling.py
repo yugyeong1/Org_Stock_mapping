@@ -17,5 +17,6 @@ for company in companylist:
     driver.quit()
     sleep(1)
 
+    stock = stock.split(" ")[1]
     print(stock)
 
