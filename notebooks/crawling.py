@@ -2,7 +2,7 @@ from pandas import options
 from selenium import webdriver
 from time import sleep
 
-companylist = ['facebook','google']
+companylist = ['amazon inc']
 base_url ='https://www.google.com/search?q='
 
 for company in companylist:
