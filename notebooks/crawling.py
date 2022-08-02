@@ -14,6 +14,7 @@ for company in companylist:
     driver.implicitly_wait(time_to_wait=5)
     stock_xpath = driver.find_element_by_xpath('//*[@id="rcnt"]/div[1]/div/div/div[3]/div[1]/div/div[2]/div/div/div/div[2]/div[1]')
     stock = stock_xpath.text
+
     driver.quit()
     sleep(1)
 
